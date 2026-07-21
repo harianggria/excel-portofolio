@@ -4,8 +4,8 @@ An Excel analytics project on order-level sales data, cleaned entirely in Power 
 ## 📁 Contents
 | File | Description |
 |---|---|
-| `sales-performance/dataset-sales-performance-dashboard.xlsx` | Main deliverable — cleaned data, summary analysis, and dashboard |
-| `sales-performace/dataset-1-sales-performance.xlsx` | Original raw dataset with intentional data quality issues |
+| [dataset-sales-performance-dashboard.xlsx](dataset-sales-performance-dashboard.xlsx) | Main deliverable — cleaned data, summary analysis, and dashboard |
+| [dataset-1-sales-performance.xlsx](dataset-1-sales-performance.xlsx) | Original raw dataset with intentional data quality issues |
 
 ## 🧹 Data cleaning approach
 The raw dataset (725 rows) contained several intentional issues:
