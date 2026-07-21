@@ -4,8 +4,8 @@ An Excel analytics project on order-level sales data, cleaned entirely in Power 
 ## 📁 Contents
 | File | Description |
 |---|---|
-| `dataset-1-sales-performance.xlsx` | Main deliverable — cleaned data, summary analysis, and dashboard |
-| `data/dataset-1-sales-performance.xlsx` | Original raw dataset with intentional data quality issues |
+| `dataset-sales-performance-dashboard.xlsx` | Main deliverable — cleaned data, summary analysis, and dashboard |
+| `dataset-1-sales-performance.xlsx` | Original raw dataset with intentional data quality issues |
 
 ## 🧹 Data cleaning approach
 The raw dataset (725 rows) contained several intentional issues:
@@ -27,27 +27,27 @@ All cleaning happens in Power Query — the raw sheet is never hand-edited, so t
 ### 1. KPI Summary
 Headline numbers and the data-cleaning funnel at a glance — what's included in "clean," what's not, and why.
 
-![KPI Summary](dashboard/KPI Summary.png)
+![KPI Summary](dashboard/KPI%20Summary.png)
 
 ### 2. Trend Analysis
 Monthly revenue with Month-over-Month growth %, and order status trend over time (Cancelled/Returned included here on purpose).
 
-![Trend Analysis(dashboard/Trend Analysis.png)]
+![Trend Analysis](dashboard/Trend%20Analysis.png)
 
 ### 3. Profitability Analysis
 Discount rate vs. average profit margin, broken out by discount band.
 
-![Profitability Analysis(dashboard/Profitability Analysis.png)]
+![Profitability Analysis](dashboard/Profitability%20Analysis.png)
 
 ### 4. Performance Breakdown
 Revenue by Category, Region, Channel, and order share by category.
 
-![Performance Breakdown(dashboard/Performance Breakdown.png)]
+![Performance Breakdown](dashboard/Performance%20Breakdown.png)
 
 ### 5. Sales Rep Performance
 Revenue leaderboard across the sales team, Completed orders only.
 
-![Sales Rep Performance(dashboard/Sales Performance.png)]
+![Sales Rep Performance](dashboard/Sales%20Performance.png)
 
 ## 💡 Key insight
 Returned and Cancelled orders — while a small share of total orders — carry a disproportionate profit cost, since the business still incurs the underlying cost with little or no revenue recovered. This is broken out separately in the Order Status summary rather than blended into headline totals, so the true cost of returns/cancellations is visible rather than hidden.
