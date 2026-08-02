@@ -2,10 +2,6 @@
 
 An Excel-based analysis exploring how daily social media and AI tool usage impact sleep, physical activity, mental health, and physical health among students aged 13–25. Built with **Power Query** (data prep) and **live formula-driven pivot summaries** for cross-tab analysis.
 
-![Excel](https://img.shields.io/badge/Excel-217346?style=flat&logo=microsoft-excel&logoColor=white)
-![Power Query](https://img.shields.io/badge/Power%20Query-217346?style=flat)
-![Data Analysis](https://img.shields.io/badge/Data%20Analysis-blue?style=flat)
-
 ---
 
 ## 📌 Project Overview
