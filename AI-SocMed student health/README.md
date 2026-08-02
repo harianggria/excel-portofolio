@@ -43,14 +43,12 @@ collected from : https://www.kaggle.com/datasets/debayank2024/ai-and-social-medi
 
 | Sheet | Description |
 |---|---|
-| `README` | Project summary, data source, and navigation guide |
-| `Query Steps` | Documented Power Query "Applied Steps" + reusable M-code |
-| `Data` | Raw dataset, 100% unchanged from source (headers & values) |
+| `RawData` | Raw dataset, 100% unchanged from source (headers & values) |
+| `Pivot` | Dataset after applied steps on power query |
 | `Pivot Summary` | Live cross-tab tables: Age Group × Usage Level, averaged across Sleep, Physical Activity, Mental Health, and Physical Health scores |
 | `Dashboard` | 6 bar charts visualizing the pivot summary results |
-| `Insight` | Written analysis, conclusions per age group, and recommendations |
 
-📥 [Download the full workbook](./AI_SocialMedia_Student_Health_Dataset.xlsx)
+📥 [Download the full workbook](https://github.com/harianggria/excel-portofolio/blob/main/AI-SocMed%20student%20health/AI_SocialMedia_Student_Health_Dataset.xlsx)
 
 ---
 
@@ -78,19 +76,17 @@ collected from : https://www.kaggle.com/datasets/debayank2024/ai-and-social-medi
 
 > *Add screenshots of the Dashboard and Pivot Summary sheets here, e.g.:*
 
-```
-![Dashboard](./screenshots/dashboard.png)
-![Pivot Summary](./screenshots/pivot-summary.png)
-```
+- Dashboard
+
+![Sleep hours](https://github.com/harianggria/excel-portofolio/blob/main/AI-SocMed%20student%20health/Sleep%20hours.png)
+![Mental health score](https://github.com/harianggria/excel-portofolio/blob/main/AI-SocMed%20student%20health/Mental%20health.png)
+- Pivot Summary
+  
+![Media](https://github.com/harianggria/excel-portofolio/blob/main/AI-SocMed%20student%20health/Pivot%20sum%20media.png)
+![AI](https://github.com/harianggria/excel-portofolio/blob/main/AI-SocMed%20student%20health/pivot%20sum%20AI.png)
 
 ---
 
-## ⚠️ Methodology Note
+## ⚠️ Note
 
 This is a **descriptive correlational analysis**, not a causal study. Age Group and Usage Level buckets are computed live via `SUMPRODUCT` formulas directly against the raw data — no permanent helper columns were added to the source sheet. Correlation coefficients (Pearson's r) were computed across the full 15,000-row dataset.
-
----
-
-## 📬 Contact
-
-Feel free to reach out or connect if you have questions about this analysis or want to collaborate on similar data projects.
