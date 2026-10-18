@@ -6,13 +6,15 @@ Each project folder is self-contained with its own README, workbook, and (where 
 
 ## Projects
 
-### 📊 Sales Performance Analysis *(in progress)*
+### 📊 Sales Performance Analysis 
 Order-level sales dataset with intentional data quality issues (duplicates, missing values, inconsistent text, mixed date formats). Cleaned entirely in Power Query with a documented Quality Flag system, summarized across Category / Region / Channel / Month / Order Status, and visualized in a dashboard.
 
 **Tools:** Power Query (M), Excel formulas, Excel dashboard & charts
 
 *Currently being re-verified for data accuracy before final publish.*
 
+
+### AI-Social Media Analysis
 ## Approach
 
 Every project in this repo follows the same discipline:
