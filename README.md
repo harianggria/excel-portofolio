@@ -10,11 +10,13 @@ Each project folder is self-contained with its own README, workbook, and (where 
 Order-level sales dataset with intentional data quality issues (duplicates, missing values, inconsistent text, mixed date formats). Cleaned entirely in Power Query with a documented Quality Flag system, summarized across Category / Region / Channel / Month / Order Status, and visualized in a dashboard.
 
 **Tools:** Power Query (M), Excel formulas, Excel dashboard & charts
+**Source raw data:** https://github.com/nurrzz/portfolio-datasets-for-students
 
-*Currently being re-verified for data accuracy before final publish.*
+### 🤖 AI-Social Media Analysis
+An Excel-based analysis exploring how daily social media and AI tool usage impact sleep, physical activity, mental health, and physical health among students aged 13–25. Built with Power Query (data prep) and live formula-driven pivot summaries for cross-tab analysis.
 
-
-### AI-Social Media Analysis
+**Tools:** Power Query (M), Excel formulas, Excel dashboard & charts
+**Source raw data:** https://www.kaggle.com/datasets/debayank2024/ai-and-social-media-impact-student-health-and-grades
 ## Approach
 
 Every project in this repo follows the same discipline:
